@@ -47,21 +47,6 @@ The breast cancer prediction model is built using a machine learning algorithm, 
 
 To use the prediction model, you can call the `predict` function in the `predict.py` script and provide patient data as input. The model will return a prediction indicating whether the tumor is benign or malignant.
 
-Example usage:
-
-```python
-from predict import predict
-
-patient_data = {
- 'feature1': value1,
- 'feature2': value2,
- # Add more features as needed
-}
-
-prediction = predict(patient_data)
-print(f'Tumor prediction: {prediction}')
-
-
 ## Results
 
 The model's performance metrics, such as accuracy, precision, recall, and F1-score, are essential for evaluating its reliability. You can find these metrics in the `results.txt` file or in the model's documentation.
@@ -78,4 +63,3 @@ If you would like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed, but please provide appropriate attribution.
-
